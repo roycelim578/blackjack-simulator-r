@@ -1,1 +1,12 @@
-You currently have (in dollars):  620 
+You currently have (in dollars):  590 
+Queen of Diamonds 
+ Five of Spades 
+15 
+Queen of Diamonds 
+ Five of Spades 
+ Four of Clubs 
+19 
+The Dealer got a Blackjack! You Lost. 
+ Dealer: Ace of Spades Queen of Clubs 
+ You: Queen of DiamondsFive of SpadesFour of Clubs
+ You have lost (in dollars):  80

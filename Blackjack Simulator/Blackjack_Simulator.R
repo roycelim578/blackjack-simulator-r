@@ -5,8 +5,9 @@ library(gtools)
 library(spatialEco)
 
 #Set-up
-cash_info <- "C:/Users/royce/OneDrive/Desktop/Data Science Materials/Scripts/Practice/Blackjack Simulator/Cash_Record.txt"
-game_info <- "C:/Users/royce/OneDrive/Desktop/Data Science Materials/Scripts/Practice/Blackjack Simulator/Output.txt"
+wd <- getwd()
+cash_info <- paste(wd, "/Cash_Record.txt", sep="")
+game_info <- paste(wd, "/Output.txt", sep="")
 cat("", file = game_info, append = FALSE)
 suits <- c("Diamonds", "Clubs", "Hearts", "Spades")
 val <- c("Ace", "Pair", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King")
